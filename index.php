@@ -6,6 +6,10 @@
     </head>
     <body>
         <h2>Fibonacci Sequence</h2>
+        <form action="" method="GET" name="number">
+          <input type="text" name="x" value="0" />
+          <input type="submit" value="check" />
+        </form>
         <?php
             $x = $_GET['x'];
             //$x = rand(0,100);//for debugging
